@@ -1,0 +1,108 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  color: #384047;
+  background-color: #b8b7b7;
+  font-size: 14px;
+}
+.carddesgin {
+  background-color: #f4f7f8;
+  max-width: 1000px;
+  margin: 00px auto;
+  padding: 0px 20px;
+  border-radius: 0px;
+}
+h1 {
+  font-size: 100px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: underline;
+  margin-top: 10px;
+  text-align: center;
+  padding: 20px;
+}
+span {
+  font-size: 18px;
+  display: inline-block;
+}
+.contentd {
+  text-align: center;
+  background-color: brown;
+  padding: 15px;
+  color: #ffffff;
+  margin-top: -50px;;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  margin-right: 50px;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.h3menu {
+  text-decoration: underline;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  background-color: darkmagenta;
+  padding: 10px;
+}
+.left {
+  display: inline-block;
+  border: 1px solid;
+  text-align: center;
+  margin-left: 50px;
+}
+.left_02 {
+  display: inline-block;
+  border: 1px solid;
+  text-align: center;
+  margin-left: 210px;
+  margin-top: 30px;
+}
+.right {
+  display: inline-block;
+}
+.imaged {
+  margin-left: 80px;
+  max-width: 300px;
+  max-height: 700px;
+}
+.imaged2 {
+  margin-left: 90px;
+  max-width: 400px;
+  max-height: 700px;
+}
+.hmenu {
+  text-decoration: underline;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  background-color: darkorange;
+  padding: 10px;
+}
+span i{
+ background-color: rgb(253, 255, 254);
+ padding: 5px;
+ border-radius: 50px; 
+ color: black;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
+}
